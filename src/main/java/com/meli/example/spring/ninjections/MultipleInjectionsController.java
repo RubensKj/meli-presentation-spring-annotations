@@ -14,8 +14,13 @@ public class MultipleInjectionsController {
         this.multipleInjectionsComponent = multipleInjectionsComponent;
     }
 
-    @GetMapping("/check")
-    public String checkMultipleInjections() {
-        return multipleInjectionsComponent.validateMultipleInjections();
+    @GetMapping("/execute")
+    public String executeMultipleTasks() {
+        return multipleInjectionsComponent.executeMultipleTasksViaInjections();
+    }
+
+    @GetMapping("/email-task")
+    public String executeEmailTask() {
+        return multipleInjectionsComponent.executeEmailTask();
     }
 }
