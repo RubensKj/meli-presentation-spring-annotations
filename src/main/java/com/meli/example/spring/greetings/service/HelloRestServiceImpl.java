@@ -1,6 +1,6 @@
-package com.meli.example.spring.service;
+package com.meli.example.spring.greetings.service;
 
-import com.meli.example.spring.dto.GreetingsDto;
+import com.meli.example.spring.greetings.dto.GreetingsDto;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
 

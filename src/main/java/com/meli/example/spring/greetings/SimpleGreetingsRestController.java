@@ -1,7 +1,7 @@
-package com.meli.example.spring.controller;
+package com.meli.example.spring.greetings;
 
-import com.meli.example.spring.dto.GreetingsDto;
-import com.meli.example.spring.service.IGreetingsRestService;
+import com.meli.example.spring.greetings.dto.GreetingsDto;
+import com.meli.example.spring.greetings.service.IGreetingsRestService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.GetMapping;

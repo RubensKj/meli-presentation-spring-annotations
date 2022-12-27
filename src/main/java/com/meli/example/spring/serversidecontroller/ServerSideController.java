@@ -1,4 +1,4 @@
-package com.meli.example.spring.controller;
+package com.meli.example.spring.serversidecontroller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
